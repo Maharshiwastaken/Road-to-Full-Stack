@@ -1,5 +1,26 @@
 <!DOCTYPE html>
 <html>
+
+    <script type = "text/javascript">
+    function validate()
+    {
+        var username = document.getElementByID("un");
+        var password = document.getElementById("pw");
+
+        if (username.value == "" || password.value == "")
+        {
+            alert("No blanks allowed.")
+            return false;
+        }
+        else
+        {
+            true;
+        }
+    }
+
+
+    </script>
+
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,14 +33,14 @@
             <h1>Welcome, you.</h1>
             <br>
             <br>
-            <form>
+            <form onsubmit="return validate()" action="heyy.html">
             <label for="username">Username:</label>
             <br>
-            <input type="text" id="username" name="username">
+            <input type="text" id="un" name="username">
             <br>
             <label for="password">Password:</label>
             <br>
-            <input type="password" id="password" name="password">
+            <input type="password" id="pw" name="password">
             <input type="submit" value="Submit">
     </form>
         </div>
