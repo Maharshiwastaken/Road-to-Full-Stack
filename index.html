@@ -1,50 +1,23 @@
-<!DOCTYPE html>
-<html>
-
-    <script type = "text/javascript">
-    function validate()
-    {
-        var username = document.getElementByID("un");
-        var password = document.getElementById("pw");
-
-        if (username.value == "" || password.value == "")
-        {
-            alert("No blanks allowed.")
-            return false;
-        }
-        else
-        {
-            true;
-        }
-    }
-
-
-    </script>
-
-    <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Index | Maharshi</title>
-    </head>
-    <h1>"Supposed Box Tutorial"</h1>
-    <Body>
-        <div class="box">
-            <h1>Welcome, you.</h1>
-            <br>
-            <br>
-            <form onsubmit="return validate()" action="heyy.html">
-            <label for="username">Username:</label>
-            <br>
-            <input type="text" id="un" name="username">
-            <br>
-            <label for="password">Password:</label>
-            <br>
-            <input type="password" id="pw" name="password">
-            <input type="submit" value="Submit">
-    </form>
+    <title>Maharshi</title>
+</head>
+<body>
+    <div class="header">
+        <div class="inner_header">
+            <div class="logo_holder">
+            <h1>Maharshi</h1></div>
+                <ul class="navigation">
+                    <a><li>Home</li></a>
+                    <a><li>Gallery</li></a>
+                    <a><li>Archive</li></a>
+                    <a><li>About</li></a>
+                </ul>
         </div>
-        </Body>
-        
-
-    </html>
+    </div>
+</body>
+</html>
