@@ -1,0 +1,1 @@
+Started as an impulse to learn figma, but made it and liked it, so tried to make it from webflow, discovered that it is a paid software after I was done with it. Then decided to pull up my socks and implement using HTML/CSS. I must say, it's very beginner friendly.
