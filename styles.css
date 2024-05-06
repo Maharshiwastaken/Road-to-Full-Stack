@@ -32,10 +32,9 @@
 
 
 .navigation{
-    padding: 10px;
+    padding: 1px;
     font-family: 'Outfit';
     font-weight: 300;
-    margin-top: 42px;
     font-size: 20px;
     color: #9BA8AB;
     float: right;
@@ -44,27 +43,41 @@
 .navigation li{
     display: inline-block;
     padding-inline: 60px;
+    cursor: pointer;
 }
 
 .about{
-    margin-top: 100px;
-    margin-left: 100px;;
-    display: block;
+    margin: 50px;;
+    display: flex;
     color: #9BA8AB;
-    font-family: 'Outfit';
+    font-family: 'Inter';
     text-align: center;
     justify-content: center;
 }
 
+.about h1{
+    font-family: 'Outfit';
+    font-size: 75px;
+    font-weight: 500;
+}
+
+.about h2{
+    font-weight: 600;
+}
+
+.about h4{
+    font-weight: 400;
+}
+
 .fillerForIntro{
     display: block;
-    padding: 50px;
+    padding: 75px;
 }
 
 .picture{
-    display: block;
-    margin-right: 250px;
-    float: right;
+    padding: 10px;
+    height: 400px;
+    width: 400px;
     border-radius: 250px;
 }
 
@@ -73,13 +86,8 @@
     padding: 100px;
 }
 
-.blueBox{
-    display: block;
-    width: 1120px;
-    margin: 0 auto;
-    height: 42px;
-    background-color: #9BA8AB;
-    border-radius: 5px;
+.media{
+    padding: 10px;
 }
 
 .icons{
@@ -87,7 +95,7 @@
     display: flex;
     justify-content: center ;
     gap: 80px;
-    margin-top: -70;
+    margin-top: -25px;
 }
 
 .icons:hover{
@@ -95,7 +103,7 @@
 }
 
 .icon1:hover{
-        transform: translateY(-20px);
+    transform: translateY(-20px);
 }
 
 .icon2:hover{
@@ -115,7 +123,7 @@
 }
 
 .cheeseTouch{
-    margin-top: 150px;
+    margin-top: 75px;
     display: block;
     color: #9BA8AB;
     font-family: 'Inter';
@@ -139,4 +147,15 @@
     color: #9BA8AB;
     font-weight: 200;
     padding-bottom: 50px;
+}
+
+@media screen and (max-witdh: 600px)
+{
+
+
+    .about{
+        justify-content: center;
+    }
+    
+    
 }
