@@ -2,6 +2,11 @@
     background-color: #06141B;
 }
 
+a {
+    text-decoration: none;
+    color: #9ba8ab;
+}
+
 .navBar{
     font-family: 'Outfit';
 }
