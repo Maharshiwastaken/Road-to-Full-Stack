@@ -1,0 +1,38 @@
+* {
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.username{
+    display: flex;
+    padding: 10px;
+}
+
+.user-image{
+    margin-right: 5px;
+}
+
+.email {
+    display: flex;
+    padding: 10px;
+}
+
+.email-image {
+    margin-right: 5px;
+}
+
+.btn {
+    background-color: burlywood;
+}
+
+
+

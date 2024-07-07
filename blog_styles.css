@@ -1,0 +1,68 @@
+*{
+    background-color: #06141B;
+}
+
+.navBar{
+    font-family: 'Outfit';
+}
+
+.inHeader{
+    width: 1120px;
+    height: 100;
+    display : block;
+    margin: 0 auto;
+}
+
+.logoHolder{
+    margin-top: -3px;
+    font-family: 'Outfit';
+    font-size: 20px;
+    padding-top: 5px;
+    color: #9BA8AB;
+}
+
+.blackBar{
+    margin-top: -100px;
+    margin-left: 200px;
+    height: 42px;
+    display: block;
+    background-color: #9BA8AB;
+    border-radius: 5px;
+}
+
+
+.navigation{
+    padding: 1px;
+    font-family: 'Outfit';
+    font-weight: 300;
+    font-size: 20px;
+    color: #9ba8ab;
+    float: right;
+}
+
+.navigation li{
+    display: inline-block;
+    padding-inline: 60px;
+    cursor: pointer;
+}
+
+.heading {
+    display: block;
+    font-family: 'Outfit';
+    font-size: 25px;
+    text-align: center;
+    color: #9ba8ab;
+}
+
+.fillerForOutro{
+    display: block;
+    padding: 320px;
+}
+
+.footer{
+    font-family: 'Outfit';
+    text-align: center;
+    color: #9BA8AB;
+    font-weight: 200;
+    padding-bottom: 50px;
+}
