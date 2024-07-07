@@ -59,6 +59,11 @@ a {
     color: #9ba8ab;
 }
 
+.fillerForIntro{
+    display: block;
+    padding: 75px;
+}
+
 .fillerForOutro{
     display: block;
     padding: 320px;
