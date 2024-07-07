@@ -127,6 +127,26 @@ a {
     transform: translateY(-20px);
 }
 
+.button {
+    background-color: #9ba8ab;
+    font-family: 'Outfit';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color: black;
+    padding: 15px;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.button:hover{
+    background-color: beige;
+}
+
 .cheeseTouch{
     margin-top: 75px;
     display: block;
